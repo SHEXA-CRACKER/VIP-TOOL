@@ -418,4 +418,4 @@ def pilih_super():
 	print """
 
 if __name__ == '__main__':
-	login()
+	login(SHEX-BLND)
