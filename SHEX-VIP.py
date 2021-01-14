@@ -420,8 +420,8 @@ def pilih_super():
 	print "\033[1;32;40m[+] Total CRACKED/\x1b[1;93mCHECKPOINT \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
-        raw_input("\n\033[5;52m[\033[5;53mExit\033[5;55m
-	super()
+        raw_input("\n\033[5;52m[\033[5;53mExit\033[5;56
+super()
 def brute():
     os.system('clear')
     try:
