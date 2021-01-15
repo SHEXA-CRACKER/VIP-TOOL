@@ -1,7 +1,6 @@
 ﻿#!/usr/bin/python2
 #coding=utf-8
 
-
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -49,16 +48,12 @@ def jalan(z):
 #### LOGO ####
 logo = """
 \033[91m
-
-
 ┏━━━┳┓╋┏┳━━━┳━┓┏━┳━━┓┏┓╋╋┏━┓╋┏┳━━━┓
 ┃┏━┓┃┃╋┃┃┏━━┻┓┗┛┏┫┏┓┃┃┃╋╋┃┃┗┓┃┣┓┏┓┃
 ┃┗━━┫┗━┛┃┗━━┓┗┓┏┛┃┗┛┗┫┃╋╋┃┏┓┗┛┃┃┃┃┃
 ┗━━┓┃┏━┓┃┏━━┛┏┛┗┓┃┏━┓┃┃╋┏┫┃┗┓┃┃┃┃┃┃
 ┃┗━┛┃┃╋┃┃┗━━┳┛┏┓┗┫┗━┛┃┗━┛┃┃╋┃┃┣┛┗┛┃
-┗━━━┻┛╋┗┻━━━┻━┛┗━┻━━━┻━━━┻┛╋┗━┻━━━┛
-                                        
-                                        
+┗━━━┻┛╋┗┻━━━┻━┛┗━┻━━━┻━━━┻┛╋┗━┻━━━┛                                         
 ╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
 \033[33m Telegram @SHEX_CRACKER
 SNAPCHAT @K4RO_2╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
@@ -424,6 +419,5 @@ def pilih_super():
         
 if __name__ == '__main__':
   login()
-
 
 # Okay Decompiling SHEX_CRACKER.py
