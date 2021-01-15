@@ -406,16 +406,24 @@ def pilih_super():
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)
-		except:																		
+		except:
 			pass
 		
-	p = ThreadPool(30)
-	p.map(main, id) 
-	
-	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;96m....'
-	print "\033[1;32;40m[+] Total CRACKED/\x1b[1;93mCHECKPOINT \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
-	print """
-
+	p = ThreadPool(15)
+	p.map(main, id)
+        anime("\x1b[37;1m<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>\x1b[0m")
+        print(" ")
+	print('\x1b[32;1m[ ✓ ] HACKAKA TAWAW BW'+"\x1b[0m")
+	print("\x1b[37;1mHACK BW \x1b[32;1mOKS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[37;1m/"+"\x1b[31;1m"+str(len(cekpoint)))
+	print(" ")
+	print(" ")
+	print(logo)
+	raw_input("[ENTER]")
+	time.sleep(3)
+        menu()
+        
 if __name__ == '__main__':
-	login(SHEX-BLND)
+  login()
+
+
+# Okay Decompiling SHEX_CRACKER.py
